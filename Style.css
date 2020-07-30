@@ -1,0 +1,181 @@
+html {
+    font-family: "Lato";
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.containerPosition {
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%; 
+}
+
+.profile {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilePosition {
+    margin: 40px;
+    width: 350px;
+    height: 350px;
+    padding: 6px;
+    background: linear-gradient(to bottom, hsl(241, 80%, 36%), rgb(31, 140, 204));
+    border-radius: 50%;
+}
+
+.name{ 
+    font-size: 54px;
+    font-weight: 900;
+    color: hsl(241, 80%, 36%);
+    text-transform: uppercase;
+}
+
+.profession{
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(31, 140, 204);
+    text-transform: capitalize; 
+    text-align: center;
+    margin: 8px 0; 
+}
+   
+
+.summary {
+    font-size: 24px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    width: 100%;
+}
+
+.leftContent { 
+    flex: 1 1 auto;
+    width: 45%;
+    text-align: end;
+}
+
+.rightContent {
+    flex: 4 1 auto;
+    width: 45%;
+    text-align: left;
+}
+
+.title{
+    font-size: 44px;
+    font-weight: 900;
+    margin: 70px 0 30px 0;
+    color: rgb(31, 140, 204);
+}
+
+.role {
+    font-size: 24px;
+    font-weight: 900;
+    color: hsl(241, 80%, 36%);
+}
+
+.company{
+    font-size: 24px;
+   color: rgb(31, 140, 204);
+}
+
+.date{
+    font-size: 14px;
+    color: grey;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.divider {
+    width: 10px;
+    border-radius: 4px;
+    margin: 0 80px;
+    background: linear-gradient(to top, rgb(31, 140, 204),hsl(241, 80%, 36%));
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0; 
+}
+
+.skillName {
+   color: rgb(31, 140, 204);
+   font-weight: 300;
+   font-size: 24px;
+   margin: 10px 0;
+}
+
+.skillBar {
+    width: 100%;
+    height: 8px;
+    background-color: rgb(96, 96, 97); 
+}
+
+.skillCompleted {
+    height: 8px;
+    background-color: hsl(241, 80%, 36%);
+    float: right;
+}
+
+#a {
+    width: 89%;
+}
+
+#b {
+    width: 74%;
+}
+
+#c {
+    width: 85%;
+}
+
+#d {
+    width: 70%;
+}
+#e {
+    width: 80%;
+}
+
+.projectName {
+    color: hsl(241, 80%, 36%);
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.contactContainer{ 
+    display: flex;
+    flex-direction: column;
+}
+    
+.item {
+    display: flex;
+    margin: 10px;
+}
+    
+.contactText {
+    font-size: 24px;
+    color: black;
+    align-content: center;
+    margin: 40px;
+}
+
+
